@@ -1,5 +1,6 @@
 <script>
 	import { browser } from '$app/environment';
+	import { base } from '$app/paths';
 
 	// Redirect to browser language or default to English
 	if (browser) {
@@ -25,7 +26,7 @@
 			targetLang = baseLang;
 		}
 
-		window.location.href = `/${targetLang}`;
+		window.location.href = `${base}/${targetLang}`;
 	}
 </script>
 
