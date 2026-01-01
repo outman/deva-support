@@ -8,6 +8,7 @@
 			id: 'https-capture',
 			icon: '🔒',
 			title: 'HTTP/HTTPS 요청 캡처',
+			video: 'https_capture.mp4',
 			screenshots: [
 				{
 					image: 'https_capture_1.png',
@@ -163,6 +164,20 @@
 							{feature.title}
 						</h3>
 					</div>
+
+					<!-- Video -->
+					{#if feature.video}
+						<div class="mb-6 rounded-2xl overflow-hidden shadow-xl">
+							<video
+								src="{base}/{feature.video}"
+								controls
+								class="w-full"
+								autoplay
+								muted
+								loop
+							></video>
+						</div>
+					{/if}
 
 					<div class="space-y-6">
 						{#each feature.screenshots as screenshot}

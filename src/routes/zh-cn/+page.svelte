@@ -169,7 +169,7 @@
 					{#if feature.video}
 						<div class="mb-6 rounded-2xl overflow-hidden shadow-xl">
 							<video
-								src="/{feature.video}"
+								src="{base}/{feature.video}"
 								controls
 								class="w-full"
 								autoplay
