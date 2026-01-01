@@ -1,5 +1,7 @@
 <script>
-	const logo = '/logo.png';
+	import { base } from '$app/paths';
+
+	const logo = `${base}/logo.png`;
 
 	const features = [
 		{
@@ -169,7 +171,7 @@
 								class="bg-white dark:bg-slate-800 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
 							>
 								<img
-									src="/{screenshot.image}"
+									src="{base}/{screenshot.image}"
 									alt="{feature.title}"
 									class="w-full h-auto border-b border-slate-200 dark:border-slate-700"
 								/>
