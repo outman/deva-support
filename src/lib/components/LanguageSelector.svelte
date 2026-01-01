@@ -1,8 +1,10 @@
 <script>
 	import { page } from '$app/stores';
-	import { base } from '$app/paths';
 	import { flip } from 'svelte/animate';
 	import { fly } from 'svelte/transition';
+
+	// Base path from build config
+	const BASE_PATH = '/deva-support';
 
 	const languages = [
 		{ code: 'en', name: 'English', flag: '🇺🇸' },
@@ -27,7 +29,7 @@
 	});
 
 	function changeLanguage(langCode) {
-		window.location.href = `${base}/${langCode}`;
+		window.location.href = `${BASE_PATH}/${langCode}`;
 	}
 
 	function getCurrentLanguage() {

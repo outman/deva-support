@@ -1,6 +1,8 @@
 <script>
 	import { browser } from '$app/environment';
-	import { base } from '$app/paths';
+
+	// Base path from build config
+	const BASE_PATH = '/deva-support';
 
 	// Redirect to browser language or default to English
 	if (browser) {
@@ -26,7 +28,7 @@
 			targetLang = baseLang;
 		}
 
-		window.location.href = `${base}/${targetLang}`;
+		window.location.href = `${BASE_PATH}/${targetLang}`;
 	}
 </script>
 
