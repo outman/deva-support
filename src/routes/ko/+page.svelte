@@ -217,7 +217,13 @@
 	<footer class="bg-slate-900 text-slate-400 py-12 mt-20">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 			<p class="text-lg mb-4">Devak - 안전, 오프라인, 사용자 통제</p>
-			<p class="text-sm">개발 작업을 더 효율적이고 편리하게</p>
+			<p class="text-sm mb-4">개발 작업을 더 효율적이고 편리하게</p>
+			<p class="text-sm">
+				연락처:
+				<a href="mailto:pochonlee@gmail.com" class="text-blue-400 hover:text-blue-300 transition-colors"
+					>pochonlee@gmail.com</a
+				>
+			</p>
 		</div>
 	</footer>
 </div>

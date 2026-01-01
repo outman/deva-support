@@ -217,7 +217,13 @@
 	<footer class="bg-slate-900 text-slate-400 py-12 mt-20">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 			<p class="text-lg mb-4">Devak - Безопасно, Офлайн, Под Вашим Контролем</p>
-			<p class="text-sm">Делать разработку более эффективной и удобной</p>
+			<p class="text-sm mb-4">Делать разработку более эффективной и удобной</p>
+			<p class="text-sm">
+				Контакты:
+				<a href="mailto:pochonlee@gmail.com" class="text-blue-400 hover:text-blue-300 transition-colors"
+					>pochonlee@gmail.com</a
+				>
+			</p>
 		</div>
 	</footer>
 </div>

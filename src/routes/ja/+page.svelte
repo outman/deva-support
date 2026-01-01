@@ -217,7 +217,13 @@
 	<footer class="bg-slate-900 text-slate-400 py-12 mt-20">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 			<p class="text-lg mb-4">Devak - 安全、オフライン、あなたの管理下</p>
-			<p class="text-sm">開発作業をより効率的で便利に</p>
+			<p class="text-sm mb-4">開発作業をより効率的で便利に</p>
+			<p class="text-sm">
+				お問い合わせ:
+				<a href="mailto:pochonlee@gmail.com" class="text-blue-400 hover:text-blue-300 transition-colors"
+					>pochonlee@gmail.com</a
+				>
+			</p>
 		</div>
 	</footer>
 </div>
