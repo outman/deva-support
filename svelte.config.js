@@ -12,7 +12,11 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 			strict: true
-		})
+		}),
+		prerender: {
+			crawl: true,
+			entries: ['/', '/en', '/zh-cn', '/zh-tw', '/ja', '/ko', '/fr', '/ru', '/es', '/pt']
+		}
 	}
 };
 
