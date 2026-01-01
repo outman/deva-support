@@ -1,15 +1,13 @@
 <script>
 	import './layout.css';
 	import LanguageSelector from '$lib/components/LanguageSelector.svelte';
-
-	// Base path from build config
-	const BASE_PATH = '/deva-support';
+	import { base } from '$app/paths';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href="{BASE_PATH}/favico.png" />
+	<link rel="icon" href="{base}/favico.png" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
