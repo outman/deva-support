@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import { flip } from 'svelte/animate';
 	import { fly } from 'svelte/transition';
 
@@ -26,7 +27,7 @@
 	});
 
 	function changeLanguage(langCode) {
-		window.location.href = `/${langCode}`;
+		window.location.href = `${base}/${langCode}`;
 	}
 
 	function getCurrentLanguage() {
