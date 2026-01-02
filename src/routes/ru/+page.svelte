@@ -42,6 +42,33 @@
 			]
 		},
 		{
+			id: 'iphone-install',
+			icon: '📱',
+			title: 'Установка iPhone Mobileconfig',
+			screenshots: [
+				{
+					image: 'iphone_1@1x.png',
+					items: [],
+					padding: true
+				},
+				{
+					image: 'iphone_2@1x.png',
+					items: [],
+					padding: true
+				},
+				{
+					image: 'iphone_3@1x.png',
+					items: [],
+					padding: true
+				},
+				{
+					image: 'iphone_4@1x.png',
+					items: [],
+					padding: true
+				}
+			]
+		},
+		{
 			id: 'http-client',
 			icon: '🌐',
 			title: 'HTTP Запрос и Управление API',
@@ -187,7 +214,7 @@
 								<img
 									src="{base}/{screenshot.image}"
 									alt="{feature.title}"
-									class="w-full h-auto border-b border-slate-200 dark:border-slate-700"
+									class="w-full h-auto {screenshot.padding ? 'p-4' : 'border-b border-slate-200 dark:border-slate-700'}"
 								/>
 								{#if screenshot.items.length > 0}
 									<div class="p-6">

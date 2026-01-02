@@ -23,6 +23,11 @@
     - Screen UI static/https_capture_4.png
         1. 局域网连接，访问下载证书
         2. 扫描二期码下载证书到手机（局域网）
+    - iPhone mobileconfig install
+        1. Screen UI static/iphone_1.png
+        2. Screen UI static/iphone_2.png
+        3. Screen UI static/iphone_3.png
+        4. Screen UI static/iphone_4.png
 
 ### HTTP request and api manage
     - Screen UI static/http_client_1.png
